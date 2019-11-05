@@ -27,7 +27,7 @@ public class Main {
 
     public static void main(String[] args) {
         boolean semaforo = false;
-        
+        System.out.print("Introduce un numero que este aprobado: ");
         do {
             try {
                 double  nota = SCN.nextDouble();
